@@ -1,0 +1,90 @@
+.login{
+    padding: 25px;
+    padding-top: 15px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.loginheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+.loginlogo >a >img{
+    object-fit: contain;
+    width: 90px;
+
+}
+.loginlang{
+    display: flex;
+    gap: 5px;
+    align-items: flex-end;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    transition: all 0.2s;
+}
+.loginlang:hover{
+    background-color: beige;
+}
+.loginlang >span{
+    font-weight: 400;
+}
+.logininfo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.logininfo >h1{
+    font-weight: 500;
+    font-size: 40px;
+    margin-left: -10px;
+
+}
+.formlogin{
+    display: flex;
+    flex-direction: column;
+}
+.formlogin >label{
+    color: black;
+    font-weight: 500px;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.formlogin >input{
+    margin-bottom: 30px;
+    background-color: #f4f4f4;
+    border: 1px solid #f4f4f4;
+    outline: none;
+    border-radius: 50px;
+    padding: 12px 20px;
+    color: #393c41;
+    font-family: 600;
+}
+.formlogin >input:focus{
+    border: 1px solid #d6d6d6;
+    transition: all 0.2s;
+}
+.logindiv{
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+.logindiv> h4{
+    width: 40%;
+    height: 0;
+    opacity: 0.3;
+    text-align: center;
+}
+.logindiv> span{
+   font-weight: 500;
+   color: #5c5e62;
+}

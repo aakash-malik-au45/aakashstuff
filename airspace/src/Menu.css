@@ -1,0 +1,29 @@
+.menu{
+    position: fixed;
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding-left: 20px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    background-color: 	#696969;
+    color: #E0FFFF;
+    text-shadow: 1px 1px 2px black, 0 0 1em #E0FFFF, 0 0 0.2em #E0FFFF;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    min-width: none;
+}
+
+.menu::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+  .menu {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+  }
