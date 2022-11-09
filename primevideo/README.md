@@ -49,10 +49,7 @@ I'm a full stack developer and project in working phase wait until we can upload
 
 
 
-## Other Common Github Profile Sections
-👩‍💻 I'm currently working working with aakash for this project, my name is Ajay Rathi
 
 
-📫 How to reach me Github -[ajay-rathi-au45]
-
-
+## 🔗 diploy Links
+[heroko](https://primevideo7.herokuapp.com/)
