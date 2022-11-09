@@ -1,0 +1,14 @@
+.menuitems{
+    border-bottom: 1px solid 	#DDA0DD;
+    text-align: left;
+    cursor: pointer;
+}
+.menuitems >h4{
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    font-size: 15px;
+    padding-left: 10px;
+    cursor: pointer;
+}
